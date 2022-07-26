@@ -1,0 +1,523 @@
+{"level":"info","message":"Starting","metadata":{},"timestamp":"2022-07-26T04:40:53.796Z"}
+{"level":"info","message":"Starting","metadata":{},"timestamp":"2022-07-26T04:44:07.783Z"}
+{"level":"info","message":"Starting","metadata":{},"timestamp":"2022-07-26T04:44:11.584Z"}
+{"level":"info","message":"Starting","metadata":{},"timestamp":"2022-07-26T04:44:27.040Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T04:44:46.496Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T04:44:59.100Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:06:00.501Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:06:00.506Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:06:35.161Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:06:35.167Z"}
+{"level":"info","metadata":{},"timestamp":"2022-07-26T05:08:18.111Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:08:18.116Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:08:18.116Z"}
+{"level":"info","message":"mongodb+srv://surajxxx:MetEma4V1FgQslG7@cluster0.ik33b.mongodb.net/Project-Books-Management-DB?retryWrites=true&w=majority","metadata":{},"timestamp":"2022-07-26T05:08:51.683Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:08:51.693Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T05:08:57.730Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:09:18.675Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:09:18.679Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:10:30.925Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:10:30.928Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:10:43.735Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:10:43.740Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:10:54.981Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:10:54.986Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:11:06.092Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:11:06.097Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:12:55.808Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:12:55.813Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:13:05.880Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:13:05.885Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:14:24.943Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:14:24.948Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:16:03.675Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:16:03.679Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:16:15.166Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:16:15.172Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:16:44.211Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:16:44.216Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:16:59.865Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:16:59.869Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T05:17:36.688Z"}
+{"level":"info","message":"Database connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","metadata":{},"timestamp":"2022-07-26T05:17:36.694Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T07:30:02.927Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T07:30:03.619Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T07:30:26.014Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T07:30:26.584Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:00:26.704Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:00:27.112Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:00:40.122Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:00:40.428Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:00:46.645Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:00:47.060Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:00:52.194Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:00:52.566Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:00:59.238Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:00:59.530Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:01:18.012Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:01:18.359Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:01:33.780Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:01:34.435Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:02:54.654Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:03:00.465Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:03:19.936Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:03:23.718Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:08:14.355Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:08:15.097Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:11:43.806Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:11:44.506Z"}
+{"level":"info","message":"User validation failed: name: Path `name` is required., phone: Path `phone` is required., password: Path `password` is required., email: Path `email` is required., title: Path `title` is required.","metadata":{},"timestamp":"2022-07-26T08:11:47.323Z"}
+{"level":"info","message":"User validation failed: name: Path `name` is required., phone: Path `phone` is required., password: Path `password` is required., email: Path `email` is required., title: Path `title` is required.","metadata":{},"timestamp":"2022-07-26T08:12:29.395Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:48:12.110Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:48:12.694Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:48:50.112Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:48:55.376Z"}
+{"level":"info","message":"User validation failed: name: Path `name` is required., phone: Path `phone` is required., password: Path `password` is required., email: Path `email` is required., title: Path `title` is required.","metadata":{},"timestamp":"2022-07-26T08:49:00.510Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:51:24.032Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:51:24.613Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:51:30.260Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:51:30.746Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:52:42.319Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:52:42.645Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:52:48.416Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:52:48.739Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:52:54.466Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:52:54.796Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T08:52:59.389Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T08:52:59.719Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'email')","metadata":{},"timestamp":"2022-07-26T08:53:05.174Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:03:11.198Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:03:11.535Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'email')","metadata":{},"timestamp":"2022-07-26T09:03:28.464Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:20:19.470Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:20:20.064Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'email')","metadata":{},"timestamp":"2022-07-26T09:20:24.073Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:21:50.989Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:21:51.601Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'email')","metadata":{},"timestamp":"2022-07-26T09:21:58.549Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:22:57.297Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:22:58.143Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:23:01.319Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:23:02.440Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'email')","metadata":{},"timestamp":"2022-07-26T09:23:05.664Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:24:04.360Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:24:04.894Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'email')","metadata":{},"timestamp":"2022-07-26T09:24:10.050Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:25:57.903Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:25:58.334Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'email')","metadata":{},"timestamp":"2022-07-26T09:26:01.188Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:27:08.855Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:27:09.180Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'email')","metadata":{},"timestamp":"2022-07-26T09:27:13.110Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:27:48.082Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:27:48.976Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:28:40.279Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:28:40.695Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'email')","metadata":{},"timestamp":"2022-07-26T09:28:44.040Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:31:24.994Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:31:25.788Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'email')","metadata":{},"timestamp":"2022-07-26T09:31:27.157Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:33:51.157Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:33:51.533Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:34:19.340Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:34:19.918Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:36:40.602Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:37:03.900Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'email')","metadata":{},"timestamp":"2022-07-26T09:38:19.002Z"}
+{"level":"info","message":"Database connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ik33b.mongodb.net","metadata":{},"timestamp":"2022-07-26T09:38:19.003Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:38:31.856Z"}
+{"level":"info","message":"Database connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ik33b.mongodb.net","metadata":{},"timestamp":"2022-07-26T09:41:22.092Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:50:21.794Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:50:22.383Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:54:53.364Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:54:54.739Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T09:54:59.139Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:55:14.791Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:55:15.204Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T09:55:27.074Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:56:11.223Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:56:11.778Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:57:15.808Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:57:16.205Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:57:19.730Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:57:20.072Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T09:57:28.835Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:57:58.908Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:57:59.249Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:58:15.770Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:58:16.208Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:58:49.302Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:58:50.083Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T09:58:54.248Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T09:58:55.184Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:03:57.719Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:03:58.225Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:04:47.846Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:04:49.107Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:05:01.060Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:05:02.154Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:05:25.704Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:05:26.881Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:08:37.708Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:08:38.350Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:09:05.397Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:09:05.776Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:09:13.037Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:09:13.390Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:09:18.344Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:09:18.706Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:09:36.015Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:11:18.391Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:11:19.081Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:11:30.284Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:11:30.668Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:11:41.857Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:11:42.237Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:11:46.495Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:12:19.851Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:12:20.338Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:12:25.806Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:12:29.254Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:12:29.617Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:12:37.205Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:12:37.648Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:12:42.569Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:13:01.691Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:13:02.025Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:13:10.497Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:14:52.455Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:14:53.027Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:15:23.236Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:15:23.686Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:15:35.638Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:15:35.991Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:15:44.391Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:15:48.961Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:15:49.380Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:16:12.959Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:16:13.382Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:16:33.972Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:16:34.482Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:17:01.404Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:17:01.890Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:17:06.547Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:17:11.079Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:19:16.641Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:19:17.121Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:19:24.635Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:19:25.025Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:19:29.326Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:19:52.177Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:19:52.539Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:19:56.428Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:20:51.746Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:20:52.510Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:20:56.347Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:24:10.193Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:24:10.644Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:24:18.300Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:24:38.567Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:24:38.941Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:24:48.490Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:24:48.894Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:24:49.252Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:25:00.144Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:25:00.484Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:25:58.544Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:25:59.095Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:26:04.479Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:26:04.840Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:26:18.270Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:26:18.618Z"}
+{"level":"info","message":"E11000 duplicate key error collection: Sales-DB.users index: email_1 dup key: { email: \"y@x.com\" }","metadata":{},"timestamp":"2022-07-26T10:26:24.377Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:27:10.796Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:27:11.215Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:27:16.840Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:27:17.286Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:27:53.293Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:27:53.685Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:29:26.106Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:29:26.611Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:29:59.342Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:29:59.729Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:30:03.334Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:30:03.697Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:31:07.753Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:31:08.316Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:31:16.452Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:31:16.851Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:31:36.390Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:31:36.760Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:31:44.083Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:32:55.146Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:32:55.753Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:33:01.115Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:33:31.411Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:33:31.774Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:33:42.808Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:33:43.173Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:34:08.556Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:34:08.989Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:34:16.008Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:34:16.534Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:34:20.831Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:35:02.390Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:35:10.190Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:35:10.534Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:35:34.518Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:35:35.016Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:35:47.748Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:35:48.090Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:35:53.739Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:35:54.119Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:36:00.790Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:36:48.659Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:36:49.075Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:36:52.228Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:37:10.064Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:37:10.460Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:37:16.168Z"}
+{"level":"info","message":"Phone number already exists","metadata":{},"timestamp":"2022-07-26T10:37:25.352Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:38:05.599Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:38:05.965Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:38:17.461Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:38:17.967Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:40:22.344Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:40:22.820Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:40:45.602Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:40:49.324Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:40:49.694Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:41:08.304Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:41:08.665Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:42:30.987Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:42:31.440Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:42:40.205Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:44:14.724Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:44:15.238Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:44:27.392Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:44:27.760Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:44:38.515Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:44:56.263Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:44:56.637Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:46:03.889Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:46:04.422Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:46:16.749Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:46:17.198Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:46:28.656Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:46:28.995Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:48:04.544Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:48:31.778Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:48:32.284Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:48:35.903Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:48:36.300Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:48:40.799Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:49:08.096Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:49:08.465Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:49:12.527Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:49:48.038Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:49:48.493Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:49:52.214Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:50:57.046Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:50:57.520Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:51:09.083Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:52:04.002Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:52:04.599Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:52:19.651Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:52:20.004Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:55:31.184Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:55:31.843Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:55:50.616Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:55:50.991Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:55:57.747Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:56:01.123Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:56:01.470Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:56:05.687Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:56:06.069Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:57:56.863Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:57:57.502Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:57:59.359Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:58:19.558Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:58:19.938Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:58:33.991Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:58:34.519Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:58:37.573Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:58:55.823Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:58:56.144Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T10:59:16.773Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T10:59:17.287Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T10:59:20.165Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T11:01:19.878Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T11:01:20.465Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T11:01:55.719Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T11:01:56.095Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T11:03:04.018Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T11:03:04.652Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:23:12.086Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:24:02.337Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:24:02.747Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:24:16.496Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:24:19.930Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:24:20.356Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:24:25.946Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:25:23.969Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:25:24.455Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:25:37.710Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:25:38.226Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:26:11.818Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:26:12.286Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:26:56.810Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:26:57.221Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:27:08.220Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:28:01.073Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:28:01.510Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:28:28.441Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:28:28.891Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:28:45.517Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:28:45.898Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:29:52.200Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:29:52.797Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:30:01.282Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:30:01.651Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:32:42.922Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:32:43.503Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:32:47.647Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:33:16.655Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:33:16.991Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:33:24.993Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:33:25.359Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:33:39.026Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:33:39.434Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:33:49.533Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:34:44.678Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:35:33.396Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:35:34.002Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:35:38.726Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:36:16.829Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:36:17.298Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:36:23.807Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:36:38.781Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:36:39.316Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:37:25.368Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:37:25.877Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:37:30.152Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:38:21.548Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:38:22.097Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:38:26.487Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:38:49.908Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:38:50.467Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:38:50.742Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:39:08.027Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:39:08.402Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T12:39:11.775Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:39:27.979Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:39:28.410Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:39:32.480Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:39:32.825Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:39:43.941Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:39:44.462Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:39:56.195Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:39:56.554Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:40:08.320Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:40:08.741Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T12:40:12.334Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T12:40:12.692Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:06:22.832Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:06:23.373Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T14:06:28.274Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T14:06:28.275Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:07:33.928Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:08:49.100Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:08:49.670Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:08:55.871Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:08:56.238Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:10:36.567Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:10:37.268Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:12:04.753Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:12:05.315Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:13:09.263Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:13:09.701Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:13:16.312Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:13:16.667Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:14:15.817Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:14:16.478Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:15:21.185Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:15:24.781Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:15:25.143Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:16:16.893Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:16:17.294Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:20:25.531Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:20:26.101Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:20:42.661Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:20:43.001Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:20:46.844Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:20:47.424Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:22:08.302Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:22:08.826Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:22:53.889Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:22:54.278Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:22:57.794Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:22:58.124Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:23:39.280Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:23:39.734Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:24:22.741Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:24:23.090Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:25:22.135Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:25:22.671Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:25:52.224Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:25:52.603Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:26:14.429Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:26:14.782Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:27:41.343Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:28:32.695Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:28:33.269Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:29:08.126Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:29:08.465Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T14:29:41.697Z"}
+{"level":"info","message":"Email already exists","metadata":{},"timestamp":"2022-07-26T14:29:41.697Z"}
+{"level":"info","message":"Phone number already exists","metadata":{},"timestamp":"2022-07-26T14:29:53.705Z"}
+{"level":"info","message":"Phone number already exists","metadata":{},"timestamp":"2022-07-26T14:29:53.706Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:30:44.011Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:30:44.576Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:30:51.977Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:30:52.344Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:31:18.370Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:31:18.736Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:32:52.290Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:32:52.910Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:33:00.878Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:33:01.239Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:33:12.016Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:33:12.391Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:34:42.211Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:34:42.796Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:35:42.643Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:35:43.037Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:35:47.084Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:35:47.437Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'token')","metadata":{},"timestamp":"2022-07-26T14:35:53.484Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:37:13.769Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:37:14.238Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:37:20.070Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:37:20.432Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:37:37.037Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:37:37.382Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:37:41.183Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:37:41.547Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:37:50.923Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:37:51.300Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:38:00.160Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:38:00.517Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:38:06.109Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:38:06.435Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:38:46.950Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:38:47.580Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'token')","metadata":{},"timestamp":"2022-07-26T14:38:52.824Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:40:01.120Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:40:04.406Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:40:05.012Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'token')","metadata":{},"timestamp":"2022-07-26T14:40:09.375Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:43:09.335Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:43:09.958Z"}
+{"level":"info","message":"Cannot read properties of undefined (reading 'token')","metadata":{},"timestamp":"2022-07-26T14:43:13.480Z"}
+{"level":"info","message":"Server listening on port 8000","metadata":{},"timestamp":"2022-07-26T14:44:18.613Z"}
+{"level":"info","message":"Database initialized successfully","metadata":{},"timestamp":"2022-07-26T14:44:19.058Z"}
