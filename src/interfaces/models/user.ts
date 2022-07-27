@@ -1,3 +1,4 @@
+import {Types} from 'mongoose'
 interface IUser {
     title: string,
     name: string,
@@ -5,6 +6,7 @@ interface IUser {
     email: string,
     phone: string,
     password: string,
+    creator: Types.ObjectId
 }
 
 export default IUser;

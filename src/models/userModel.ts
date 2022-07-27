@@ -1,4 +1,4 @@
-import {Schema, Model, Document, model, mongo} from "mongoose";
+import {Schema, Model, Document, model, mongo, Types} from "mongoose";
 import IUser from "../interfaces/models/user";
 import bcrypt from 'bcrypt';
 
@@ -14,7 +14,8 @@ export const userSchema : Schema = new Schema({
     password: {type: String, required: true},
     phone: {type: String, required: true, unique: true},
     role: {type: String, required: true, enum: ["admin", "client", "product manager", "inspection manager"],default: "client"},
-    name: {type: String, required: true}
+    name: {type: String, required: true},
+    creator : {type: Schema.Types.ObjectId }
 })
 
 // password hashing function

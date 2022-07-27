@@ -1,5 +1,8 @@
 import { IRequest, IResponse, INext } from '../interfaces/vendors';
-import { registerUserSchema, loginUserSchema} from '../schemas/joiSchemas'
+import { registerUserSchema,
+     loginUserSchema,
+      registerChecklistSchema,
+    registerOrderSchema} from '../schemas/joiSchemas'
 
 
 
@@ -11,7 +14,8 @@ const requestValidator = (req : any, next : INext, schema : any) => {
     };
     const { error, value } = schema.validate(req.body, options);
     if (error) {
-        error.status = 422; // joi error status
+         // joi error status
+         error.status = 422; //
        return next(error);
     } else {
         req.body = value;
@@ -31,4 +35,13 @@ export const loginSchema = (req: any, res: IResponse, next : INext) => {
 }
 
 
+export const createChecklistSchema = (req: any, res: IResponse, next : INext) => {
+    const schema = registerChecklistSchema
+    requestValidator(req, next, schema);
+}
 
+
+export const createOrderSchema = (req: any, res: IResponse, next : INext) => {
+    const schema = registerOrderSchema
+    requestValidator(req, next, schema);
+}
