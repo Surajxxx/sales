@@ -1,12 +1,13 @@
 import express from 'express';
 import * as AuthMiddleware from '../middleware/auth';
-import { createChecklistSchema } from '../middleware/validateRequest';
+import { createBlankChecklistSchema } from '../middleware/validateRequest';
 import * as ChecklistController from '../controller/Api/checklist'
 
 const router = express.Router();
 
 
-router.post('/register', createChecklistSchema, AuthMiddleware.authentication, ChecklistController.registerChecklist)
+router.post('/register', createBlankChecklistSchema, AuthMiddleware.authentication, ChecklistController.registerChecklist)
 
+router.get('/getChecklist/:clientId',AuthMiddleware.authentication, ChecklistController.getChecklistByClientId)
 
 export default router

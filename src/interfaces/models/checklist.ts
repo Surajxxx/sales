@@ -6,14 +6,22 @@ type Driver = {
     rc ?: boolean 
 }
 
-interface IChecklist {
+type Requirements = {
+    cooler?: boolean,
+    padding ?: boolean,
+    compartment ?: boolean,
+    pallets ?: boolean,
+    waterProtection ?: boolean
+}
+
+interface IBlankChecklist {
     clientId: Types.ObjectId;
     createdBy: Types.ObjectId;
-    coolerPresent: boolean;
+    requirements: Requirements;
     category : string;
     driverDetails: Driver;
-    isVerified : boolean;
+    summary: string;
 
 }
 
-export default IChecklist;
+export default IBlankChecklist;

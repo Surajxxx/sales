@@ -7,7 +7,7 @@ export interface IUserModel extends IUser, Document {
     comparePassword(password: string, cb : any): string;
 }
 
-
+// user Schema
 export const userSchema : Schema = new Schema({
     title: {type: String, enum: ["Mr", "Mrs", "Miss"], required: true},
     email: {type: String, required: true, unique: true},
@@ -15,8 +15,9 @@ export const userSchema : Schema = new Schema({
     phone: {type: String, required: true, unique: true},
     role: {type: String, required: true, enum: ["admin", "client", "product manager", "inspection manager"],default: "client"},
     name: {type: String, required: true},
-    creator : {type: Schema.Types.ObjectId }
-})
+    creator : {type: Schema.Types.ObjectId },
+    reportingManager : {type : Schema.Types.ObjectId}
+}, {timestamps : true})
 
 // password hashing function
 

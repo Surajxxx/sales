@@ -4,12 +4,26 @@ import IOrder from '../interfaces/models/order'
 const ObjectId = Schema.Types.ObjectId;
 
 const orderSchema : Schema = new Schema({
-    clientId: {type : ObjectId, required: true, ref : "User"},
-    status : {type : String, required: true, enum : ["pending", "inTransit", "completed", "cancelled"]},
-    createdBy : {type : ObjectId, required: true, ref : "User"},
-    checkListId : {type : ObjectId, required: true, ref : "CheckList"},
+    clientId: {type : ObjectId, ref : "User"},
+    createdBy : {type : ObjectId, ref : "User"},
+    status : {type : String},
+    blankChecklistId : {type : ObjectId, ref : "BlankChecklist"},
+    filledChecklistId : {type : ObjectId, ref : "FilledChecklist"},
     items : {type : Number, required: true},
-    deliveryAt : {type : String, required: true}
+    itemType : {type : String, required: true},
+    itemDetails : {type : String, required: true},
+    coolerRequired : {type : Boolean, default: false},
+    paddingRequired : {type : Boolean, default: false},
+    waterProtectionRequired : {type : Boolean, default: false},
+    palletsRequired : {type : Boolean, default: false},
+    sharingAllowed : {type : Boolean, default : false},
+    deliveryTo : {type : String, required: true},
+    pickUpFrom : {type : String, required: true},
+    isVerified : {type : Boolean, default: false}
+
 }, {timestamps : true})
 
-export const Order = model<IOrder>("Order", orderSchema)
+
+ const Order = model<IOrder>("Order", orderSchema);
+
+ export default Order;

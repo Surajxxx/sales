@@ -47,12 +47,21 @@ export const createUser = async (input: any, creator : string, creatorId : strin
             throw new createHttpError.NotAcceptable('Phone number already exists');
         }
 
+        // adding creator field
         input.creator = creatorId;
 
+        // assigning reporting manager
+
+        // if(creator === 'admin' && input.reportingManager === undefined){
+
+        // }
+
+
+
         const user : any = await User.create(input)
-        // masking password and role
+
+        // masking password 
         user.password = undefined;
-        user.role = undefined;
 
         return user
     } catch (error : any) {
@@ -96,15 +105,6 @@ export const loginUser = async (input: any) : Promise<any> => {
         if(!isPasswordMatch){
             throw new createHttpError.NotAcceptable('Invalid Password')
         }
-        // user.comparePassword(input.password, (err : any, isMatch : any) => {
-        //     if (err) {
-        //         console.log("err", err)
-        //        throw err;
-        //     }
-
-        //     if (! isMatch) {
-        //        throw new createHttpError.NotFound('Invalid password');
-        //     }
 
             const payload = {
                 userId : user._id.toString(),

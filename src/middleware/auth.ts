@@ -6,26 +6,24 @@ import Locals from "../config/config";
 
 export const authentication = async (req: any, res: IResponse, next : INext) => {
 
-    let token = req.headers["authorization"]
+    console.log("decoded");
+    try {
+    let token = req.headers["authorization"];
+
     if(!token || token.split(" ")[0] !== 'Bearer') {
-        return res.status(401).send({ message : "Token is required...please login first." });
+       throw new createHttpError.Unauthorized( "Token is required...please login first." );
     }
 
     token = token.split(" ")[1];
 
-    try {
-        const decoded = await jwt.verify(token, Locals.config().jwtSecret);
+        const decoded  = await jwt.verify(token, Locals.config().jwtSecret);
+
         req.decoded = decoded
-        return next()
+         next()
     } catch (error : any) {
-        return new createHttpError.Unauthorized(error.message);
+        // return new createHttpError.Unauthorized(error.message);
+        // error.status = 401;
+        next(error)
     }
 
 }
-
-// export const roleConfirmation = async (req: any, res: IResponse, next : INext) => {
-//     const payload = req.decoded;
-//     if(payload.role === "admin") {
-
-//     }
-// }

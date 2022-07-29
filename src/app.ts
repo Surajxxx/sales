@@ -9,7 +9,8 @@ import MongoStore from 'connect-mongo';
 import locals from './config/config';
 import Database from '../src/db/db';
 import userRouter from './routes/userRoutes';
-import checklistRouter from './routes/checklistRoutes';
+import checklistRouter from '../src/routes/checklistRoutes';
+import orderRouter from '../src/routes/orderRoutes';
 
 dotenv.config()
 
@@ -40,12 +41,14 @@ app.use(express.urlencoded({ extended: true }));
 Database.init();
 
 
+
+app.use('/user', userRouter)
+app.use('/checklist', checklistRouter)
+app.use('/order', orderRouter);
+
 // error handler
 app.use((err : any, req : Request, res : Response, next : NextFunction) => {
     res.status(err.status || 500);
-    if(err.status === 422){
-        res.json(err.message);
-    }
     res.send({
         error: {
             status: err.status || 500,
@@ -53,9 +56,6 @@ app.use((err : any, req : Request, res : Response, next : NextFunction) => {
         }
     })
 });
-
-app.use('/user', userRouter)
-app.use('/checklist', checklistRouter);
 
 // not found 
 app.use((req, res, next) => {

@@ -6,7 +6,8 @@ interface IUser {
     email: string,
     phone: string,
     password: string,
-    creator: Types.ObjectId
+    creator: Types.ObjectId,
+    reportingManager ?: Types.ObjectId,
 }
 
 export default IUser;

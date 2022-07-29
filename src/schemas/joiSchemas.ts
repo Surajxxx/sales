@@ -7,6 +7,7 @@ export const registerUserSchema = Joi.object({
     email : Joi.string().required().email().trim().lowercase(),
     password : Joi.string().required(), //.pattern(new RegExp(/^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[#$@!%&?])[A-Za-z\d#$@!%&?]{8,15}$/)),
     phone : Joi.string().required().pattern(new RegExp(/^[6-9]\d{9}$/)),
+    reportingManager : Joi.string().hex().length(24)
 })
 
 export const loginUserSchema = Joi.object({
@@ -16,25 +17,39 @@ export const loginUserSchema = Joi.object({
     phone : Joi.string().pattern(new RegExp(/^[6-9]\d{9}$/)),
 })
 
-export const registerChecklistSchema = Joi.object({
+export const registerBlankChecklistSchema = Joi.object({
      clientId : Joi.string().required().hex().length(24),
-     createdBy : Joi.string().hex().length(24),
-     coolerPresent : Joi.boolean().default(false).required(),
-     isVerified : Joi.boolean().default(false),
-     category : Joi.string().valid("food", "medical", "houseHolds").required(),
-     driverDetails : Joi.object({
-        licensePresent : Joi.boolean().default(true),
-        rc : Joi.boolean().default(true),
-        phone : Joi.boolean().default(true)
-     })
+     requirements : Joi.object({
+        cooler : Joi.valid(null),
+        padding : Joi.valid(null),
+        compartment : Joi.valid(null),
+        pallets : Joi.valid( null),
+        waterProtection : Joi.valid(null)
+
+     }),
+     category : Joi.string().default(null),
+     driverDetails : Joi.object().default({
+        licensePresent : null,
+        rc : null,
+        phone : null,
+        airPressureGood : null
+     }),
+     summary : Joi.string().default(null),
 })
 
 export const registerOrderSchema = Joi.object({
-    clientId : Joi.string().required().hex().length(24),
-    createdBy : Joi.string().hex().length(24),
-    status : Joi.string().required().valid("pending", "inTransit", "completed", "cancelled"),
-    checklistId : Joi.string().required().hex().length(24),
-    items : Joi.number().required().min(1),
-    deliveryAt : Joi.string().required(),
+   
+        clientId:  Joi.string().hex().required().length(24),
+        status : Joi.string().default("pending"),
+        items : Joi.number().required().min(1),
+        itemType : Joi.string().valid("food", "medical", "houseHolds", "electronics", "other"),
+        itemDetails : Joi.string().required(),
+        coolerRequired  : Joi.boolean().default(false),
+        paddingRequired : Joi.boolean().default(false),
+        waterProtectionRequired : Joi.boolean().default(false),
+        palletsRequired : Joi.boolean().default(false),
+        sharingAllowed : Joi.boolean().default(false),
+        deliveryTo : Joi.string().required().min(3),
+        pickUpFrom : Joi.string().required().min(3),
 
-})
+});
