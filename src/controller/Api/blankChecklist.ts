@@ -1,11 +1,10 @@
 import {  IResponse, INext } from "../../interfaces/vendors";
 import logger from "../../logger/logger";
-import {createBlankChecklist, getChecklist} from '../../services/checklistServices';
-import {Types} from 'mongoose';
-import createHttpError from "http-errors";
+import {createBlankChecklist, getChecklist} from '../../services/blankChecklistServices';
 
 
-export const registerChecklist = async (req: any, res: IResponse, next : INext) => {
+
+export const registerChecklistHandler = async (req: any, res: IResponse, next : INext) => {
 
     try {
         const payload = req.decoded;
@@ -16,24 +15,22 @@ export const registerChecklist = async (req: any, res: IResponse, next : INext) 
         return res.status(201).json(data);
         
     } catch (error : any) {
+        logger.info(error.message);
         next(error);
     }   
 }
 
-export const getChecklistByClientId = async (req: any, res: IResponse, next : INext) => {
+export const getChecklistByClientIdHandler = async (req: any, res: IResponse, next : INext) => {
     try {
-        const payload = req.decoded;
+    
         const clientId = req.params.clientId;
 
-        if(!Types.ObjectId.isValid(clientId)){
-            throw new createHttpError.BadRequest("Please provide a valid clientId")
-        }
-
-        const data = await getChecklist(clientId, payload);
+        const data = await getChecklist(clientId);
 
         return res.status(200).send({status: true, numbers : data.length, data: data});
         
     } catch (error : any) {
+        logger.info(error.message);
         next(error);
     }
 }

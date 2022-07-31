@@ -11,6 +11,7 @@ import Database from '../src/db/db';
 import userRouter from './routes/userRoutes';
 import checklistRouter from '../src/routes/checklistRoutes';
 import orderRouter from '../src/routes/orderRoutes';
+import multer from 'multer';
 
 dotenv.config()
 
@@ -37,6 +38,7 @@ app.use(session({
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(multer().any());
 
 Database.init();
 

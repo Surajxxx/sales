@@ -3,7 +3,8 @@ import {Types} from 'mongoose'
 type Driver = {
     licensePresent ?: boolean,
     phone ?: boolean,
-    rc ?: boolean 
+    rc ?: boolean,
+    airPressureGood ?: boolean
 }
 
 type Requirements = {
@@ -14,7 +15,7 @@ type Requirements = {
     waterProtection ?: boolean
 }
 
-interface IBlankChecklist {
+export interface IBlankChecklist {
     clientId: Types.ObjectId;
     createdBy: Types.ObjectId;
     requirements: Requirements;
@@ -24,4 +25,14 @@ interface IBlankChecklist {
 
 }
 
-export default IBlankChecklist;
+export interface IFilledChecklist {
+    orderID : Types.ObjectId;
+    inspectedBy : Types.ObjectId;
+    requirements: Requirements;
+    driverDetails: Driver;
+    summary: string;
+    category: string;
+    halfLoadingImage : string;
+    fullLoadingImage : string;
+}
+

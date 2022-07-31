@@ -4,7 +4,7 @@ import jwt from 'jsonwebtoken';
 import {IUserModel} from '../models/userModel'
 import logger from '../logger/logger';
 import bcrypt from 'bcrypt';
-import { HydratedDocument } from 'mongoose'
+
 
 
 

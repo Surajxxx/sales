@@ -1,5 +1,5 @@
 import { Schema, model, Types } from "mongoose";
-import IChecklist from '../interfaces/models/checklist';
+import {IBlankChecklist} from '../interfaces/models/checklist';
 
 
 const ObjectId = Schema.Types.ObjectId;
@@ -8,22 +8,22 @@ const blankChecklistSchema : Schema = new Schema({
     clientId: {type : ObjectId,  ref : "User"},
     createdBy : {type : ObjectId, ref : "User"},
     requirements : {
-        cooler : {type : String},
-        padding : {type : String},
-        compartment : {type : String},
-        pallets : {type : String},
-        waterProtection : {type : String},
+        cooler : {type : Boolean},
+        padding : {type : Boolean},
+        compartment : {type : Boolean},
+        pallets : {type : Boolean},
+        waterProtection : {type : Boolean},
     },
     category : {type : String},
     driverDetails : {
-        licensePresent : {type : String},
-        rc : {type : String},
-        phone : {type : String},
-        airPressureGood : {type : String},
+        licensePresent : {type : Boolean},
+        rc : {type : Boolean},
+        phone : {type : Boolean},
+        airPressureGood : {type : Boolean},
     },
     summary : {type : String}
 }, {timestamps : true})
 
- const blankChecklist = model<IChecklist>("BlankChecklist", blankChecklistSchema)
+ const BlankChecklist = model<IBlankChecklist>("BlankChecklist", blankChecklistSchema)
 
- export default blankChecklist;
+ export default BlankChecklist;
