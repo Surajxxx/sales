@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "suraj dubey",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1185.0",
@@ -22,6 +22,7 @@
     "joi": "^17.6.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.4.7",
+    "mongoose-unique-validator": "^3.1.0",
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
     "prisma": "^4.1.0",
@@ -34,6 +35,7 @@
     "@types/express-session": "^1.17.5",
     "@types/http-errors": "^1.8.2",
     "@types/jsonwebtoken": "^8.5.8",
+    "@types/mongoose-unique-validator": "^1.0.6",
     "@types/morgan": "^1.9.3",
     "@types/multer": "^1.4.7",
     "@types/node": "^18.6.1",

@@ -1,4 +1,8 @@
 
+/*
+* @author Suraj Dubey
+* @description config file for the application
+*/
 
 class Locals {
     public static config(): any {

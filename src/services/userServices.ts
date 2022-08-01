@@ -1,15 +1,16 @@
 import User from '../models/userModel';
 import createHttpError from 'http-errors';
 import jwt from 'jsonwebtoken';
-import {IUserModel} from '../models/userModel'
 import logger from '../logger/logger';
 import bcrypt from 'bcrypt';
+import {Types} from 'mongoose';
 
 
-
-
-
-export const canCreateUser = (inputRole : string, creatorRole : string) => {
+/*
+* @author Suraj Dubey
+* @description  checking whether logged in user can create a new user
+*/
+const canCreateUser = (inputRole : string, creatorRole : string) => {
     if(creatorRole === "admin") {
         return true
     }
@@ -27,36 +28,43 @@ export const canCreateUser = (inputRole : string, creatorRole : string) => {
 
 }
 
-
-export const createUser = async (input: any, creator : string, creatorId : string) => {
+/*
+* @author Suraj Dubey
+* @description Service for creating new users
+*/
+export const createUser = async (input: any, creatorRole : string, creatorId : Types.ObjectId) => {
     try {
 
-        if(!canCreateUser(input.role, creator)){
-            throw new createHttpError.Forbidden(`${creator} are not allowed to create ${input.role}`)
-        }
-
-        // verify email and phone number are unique
-        const isEmailExist = await User.findOne({ email: input.email });
-
-        if(isEmailExist){
-          throw new createHttpError.NotAcceptable('Email already exists');
-        }
-        const isPhoneNumberExist = await User.findOne({ phone: input.phone });
-
-        if(isPhoneNumberExist){
-            throw new createHttpError.NotAcceptable('Phone number already exists');
+        if(!canCreateUser(input.role, creatorRole)){
+            throw new createHttpError.Forbidden(`${creatorRole} are not allowed to create ${input.role}`)
         }
 
         // adding creator field
-        input.creator = creatorId;
+        input.createdBy = creatorId;
 
-        // assigning reporting manager
+        if (input.reportingManager) {
 
-        // if(creator === 'admin' && input.reportingManager === undefined){
+            const reportingManager = await User.findById(input.reportingManager);
+            
+            if (!reportingManager) {
+                throw new createHttpError.NotFound(`No user exits with ${input.reportingManager} ID`);
+            }
 
-        // }
+            if (reportingManager.role !== "product manager"){
+                throw new createHttpError.NotAcceptable(`${input.role} can not be assigned to ${reportingManager.role}`);
+            }
 
+            if(creatorRole === "product manager" && reportingManager._id.toString() !== input.reportingManager){
+                throw new createHttpError.Forbidden(`Can only assign your self as reportingManager`)
+            }
+                
+        }
 
+        if(creatorRole === 'admin' && input.role === 'inspection manager'){
+            if(input.reportingManager === undefined){
+                input.reportingManager = creatorId
+            }
+        }
 
         const user : any = await User.create(input)
 
@@ -65,19 +73,21 @@ export const createUser = async (input: any, creator : string, creatorId : strin
 
         return user
     } catch (error : any) {
-        logger.info(error.message)
       throw error
     }
 }
 
-
+/*
+* @author Suraj Dubey
+* @description Service for login
+*/
 export const loginUser = async (input: any) : Promise<any> => {
 
-
     try {
-
+        // login can happen with phone or email
         const condition : {phone ?: string, email ?: string} = {}
 
+        // inspection manager can only login with phone number
         if(input.role === "inspection manager"){
             if(input.phone === undefined){
                 throw new createHttpError.NotAcceptable("Inspection manager login, requires phone number");
@@ -99,27 +109,29 @@ export const loginUser = async (input: any) : Promise<any> => {
         if(user.role !== input.role){
             throw new createHttpError.Unauthorized(`Please login as ${user.role}`);
         }
-
+        // comparing password
         const isPasswordMatch = await bcrypt.compare(input.password, user.password);
 
         if(!isPasswordMatch){
             throw new createHttpError.NotAcceptable('Invalid Password')
         }
 
+        // JWT logic
             const payload = {
                 userId : user._id.toString(),
                 role : user.role
             }
     
             const secret : any = process.env.JWT_SECRET
-            const expiry = {expiresIn : "3600s"}
+            const expiry = {expiresIn : "9000s"}
     
             const token = jwt.sign(payload, secret, expiry)
             
             // masking user password and role
             user.password = undefined;
-            user.role = undefined;
+        
              const obj =   {token: token, user : user}
+
              return obj
 
     } catch (error : any) {
@@ -129,3 +141,25 @@ export const loginUser = async (input: any) : Promise<any> => {
     
 }
 
+/*
+* @author Suraj Dubey
+* @description Service for get all users by role
+*/
+export const getUserByRole = async (input: string) =>{
+    try {
+
+        if(!["admin", "client", "product manager", "inspection manager"].includes(input)){
+            throw new createHttpError.BadRequest("Invalid role")
+        }
+
+        const users = await User.find({role : input});
+
+        if(users.length === 0){
+            throw new createHttpError.NotFound(`No users found of ${input} role`)
+        }
+
+        return users;
+    } catch (error : any) {
+        throw error
+    }
+}

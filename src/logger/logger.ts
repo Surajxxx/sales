@@ -1,5 +1,9 @@
 import { createLogger, transports, format  }  from  'winston';
 
+/*
+* @author Suraj Dubey
+* @description logger for logging events 
+*/
 
 const logger = createLogger({
     transports: [   

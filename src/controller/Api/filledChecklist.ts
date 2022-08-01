@@ -2,6 +2,11 @@ import { IResponse, INext } from "../../interfaces/vendors";
 import logger from "../../logger/logger";
 import { fillChecklist } from "../../services/filledChecklistService";
 
+/*
+* @author Suraj Dubey
+* @description Registering filled checklist
+* @route POST checklist/register/fill/:orderId
+*/
 export const fillChecklistHandler = async (req: any, res: IResponse, next: INext) => {
     try {
         const input = req.body;

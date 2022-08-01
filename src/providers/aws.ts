@@ -1,11 +1,17 @@
 import AWS from "aws-sdk";
 
+/*
+* @author Suraj Dubey
+* @description AWS Cloud Storage Service
+*/
+
 AWS.config.update({
   accessKeyId: "AKIAY3L35MCRVFM24Q7U",
   secretAccessKey: "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",
   region: "ap-south-1",
 });
 
+// creating file uploading service
 export const uploadFile = async (file: any) => {
   return new Promise(function (resolve, reject) {
     //this function will upload file to aws and return the link

@@ -3,7 +3,11 @@ import logger from "../../logger/logger";
 import {createBlankChecklist, getChecklist} from '../../services/blankChecklistServices';
 
 
-
+/*
+* @author suraj dubey
+* @description Create blank checklist 
+* @route POST checklist/register/blank
+*/
 export const registerChecklistHandler = async (req: any, res: IResponse, next : INext) => {
 
     try {
@@ -20,6 +24,11 @@ export const registerChecklistHandler = async (req: any, res: IResponse, next : 
     }   
 }
 
+/*
+* @author Suraj Dubey
+* @description Registering filled checklist
+* @route GET checklist/get/blank/:clientId
+*/
 export const getChecklistByClientIdHandler = async (req: any, res: IResponse, next : INext) => {
     try {
     

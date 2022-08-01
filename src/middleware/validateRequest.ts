@@ -6,7 +6,10 @@ import { registerUserSchema,
     registerOrderSchema, filledChecklistSchema, updateStatusSchema} from '../schemas/joiSchemas'
 
 
-
+/*
+* @author Suraj Dubey
+* @description Joi validation for the incoming request
+*/
 const requestValidator = (req : any, next : INext, schema : any) => {
     const options = {
         abortEarly: false, // include all errors

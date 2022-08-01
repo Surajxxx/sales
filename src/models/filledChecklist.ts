@@ -1,6 +1,11 @@
 import { Schema, model, Types} from 'mongoose';
 import {IFilledChecklist} from '../interfaces/models/checklist';
 
+/*
+* @author Suraj Dubey
+* @description FilledChecklist schema and model
+*/
+
 const ObjectId = Types.ObjectId;
 
 const filledChecklistSchema = new Schema({
@@ -25,6 +30,7 @@ const filledChecklistSchema = new Schema({
     summary : {type : String}
 }, {timestamps : true})
 
+// creating model
  const FilledChecklist = model<IFilledChecklist>("FilledChecklist", filledChecklistSchema)
 
  export default FilledChecklist

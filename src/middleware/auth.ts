@@ -7,6 +7,10 @@ import { Types } from 'mongoose';
 
 type payload = { userId: Types.ObjectId, role: string }
 
+/*
+* @author Suraj Dubey
+* @description AuthMiddleware 
+*/
 
 export const authentication = async (req: any, res: IResponse, next: INext) => {
 
@@ -32,6 +36,11 @@ export const authentication = async (req: any, res: IResponse, next: INext) => {
     }
 
 }
+
+/*
+* @author Suraj Dubey
+* @description Role management service
+*/
 
 export const allowedRoles = (role: any) => {
     return async (req : any, res: IResponse, next : INext) => {

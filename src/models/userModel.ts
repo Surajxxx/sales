@@ -1,7 +1,12 @@
 import {Schema, Model, Document, model, mongo, Types} from "mongoose";
 import IUser from "../interfaces/models/user";
 import bcrypt from 'bcrypt';
+import mongooseUniqueValidator from 'mongoose-unique-validator';
 
+/*
+* @author Suraj Dubey
+* @description User schema and model objects
+*/
 
 export interface IUserModel extends IUser, Document {
     comparePassword(password: string, cb : any): string;
@@ -15,12 +20,12 @@ export const userSchema : Schema = new Schema({
     phone: {type: String, required: true, unique: true},
     role: {type: String, required: true, enum: ["admin", "client", "product manager", "inspection manager"],default: "client"},
     name: {type: String, required: true},
-    creator : {type: Schema.Types.ObjectId },
+    createdBy : {type: Schema.Types.ObjectId },
     reportingManager : {type : Schema.Types.ObjectId}
 }, {timestamps : true})
 
-// password hashing function
 
+// password hashing function
 userSchema.pre<IUserModel>('save', async function (next) {
     const user = this;
     if(!user.isModified('password')) {
@@ -37,13 +42,17 @@ userSchema.pre<IUserModel>('save', async function (next) {
 });
 
 // compare password function
-
 userSchema.methods.comparePassword = function (requestPassword: string, cb : any) : any {
     bcrypt.compare(requestPassword, this.password, (err, isMatch) => {
         return cb(err, isMatch);
     })
 };
 
+// unique fields validation
+userSchema.plugin(mongooseUniqueValidator, {message: 'already taken'});
+
+
+// creating model
 const User = model<IUserModel>('User', userSchema);
 
 export default User;

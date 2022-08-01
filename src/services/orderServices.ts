@@ -1,13 +1,16 @@
 import Order from '../models/orderModel';
-import  IOrder  from '../interfaces/models/order';
 import createHttpError from 'http-errors';
 import User from '../models/userModel';
 import BlankChecklist from '../models/blankChecklist';
-import {Types} from 'mongoose';
+import { Types} from 'mongoose';
+
 
 type payload = {userId : Types.ObjectId, role : string}
 
-
+/*
+* @author Suraj Dubey
+* @description Service for creating new order
+*/
  export const createOrder = async (input : any, payload: payload) => {
     try {
 
@@ -25,13 +28,17 @@ type payload = {userId : Types.ObjectId, role : string}
             input.createdBy = payload.userId;
 
             const orderDetails = await Order.create(input)
+
             return orderDetails
     } catch (error : any) {
        throw error
     }
 }
 
-
+/*
+* @author Suraj Dubey
+* @description Service for linking blank checklist to order
+*/
 export const addBlankChecklist = async (orderId : Types.ObjectId, checklistId : Types.ObjectId ) => {
     try {
 
@@ -67,13 +74,29 @@ export const addBlankChecklist = async (orderId : Types.ObjectId, checklistId : 
     }
 }
 
-export const getOrders = async (input : string) => {
+/*
+* @author Suraj Dubey
+* @description Service for getting orders by status
+*/
+export const getOrders = async (input : string, payload : payload) => {
     try {
 
-       if(!["pending", "completed", "dispatched", "confirmed"].includes(input)){
-        throw new createHttpError.BadRequest(`${input} is not allowed here`)
+        if(input){
+            if(!["pending", "completed", "dispatched", "confirmed"].includes(input)){
+             throw new createHttpError.BadRequest(`${input} is not allowed here`)
+            }
+        }
+
+       type Condition = {status ?: string; createdBy ?: Types.ObjectId}
+
+       const condition : Condition  = {status : input};
+
+       if(payload.role === "inspection manager"){
+          
+        const inspectionManager : any = await User.findById(payload.userId)
+
+         condition.createdBy = inspectionManager.reportingManager
        }
-       const condition = {status : input};
 
        const orders = await Order.find(condition).populate("filledChecklistId");
 
@@ -84,6 +107,10 @@ export const getOrders = async (input : string) => {
     }
 }
 
+/*
+* @author Suraj Dubey
+* @description Auto verification logic
+*/
 export const verification =  (order : any) => {
     const {itemType, coolerRequired, paddingRequired, waterProtectionRequired, palletsRequired, sharingAllowed, filledChecklistId} = order 
     const {driverDetails, requirements, category} = filledChecklistId
@@ -109,6 +136,10 @@ export const verification =  (order : any) => {
     return true;
 }
 
+/*
+* @author Suraj Dubey
+* @description Service for order verification
+*/
 export const verifyOrder = async (input : Types.ObjectId) => {
         try {
 
@@ -137,6 +168,10 @@ export const verifyOrder = async (input : Types.ObjectId) => {
         }
 }
 
+/*
+* @author Suraj Dubey
+* @description Service for updating order status
+*/
 export const updateStatus = async (input : Types.ObjectId, status : string) => {
     try {
 
@@ -171,3 +206,35 @@ export const updateStatus = async (input : Types.ObjectId, status : string) => {
     }
 }
 
+/*
+* @author Suraj Dubey
+* @description Service for get order status
+*/
+export const getStatus = async (input : Types.ObjectId, payload : payload) => {
+        try {
+            if(!Types.ObjectId.isValid(input)){
+                throw new createHttpError.NotFound(`Please provide a valid client id`)
+            }
+
+            const user = await User.findById(input);
+
+            if(!user){
+                throw new createHttpError.NotFound(`User with id ${input} does not exist`)
+            }
+
+            if(user._id.toString() !== payload.userId.toString()){
+                throw new createHttpError.Forbidden(`can not see other users orders`)
+            }
+
+            const orders = await Order.find({clientId : input}).select({status : 1});
+
+            if(orders.length === 0){
+                return (`No orders found for this client id ${input}`)
+            }
+
+            return orders;
+            
+        } catch (error : any) {
+            throw error;
+        }
+}

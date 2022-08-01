@@ -6,23 +6,27 @@ import {uploadFile} from '../providers/aws';
 
 type payload = {userId : Types.ObjectId, role : string}
 
+/*
+* @author Suraj Dubey
+* @description Service for filling blank checklist
+*/
 export const fillChecklist = async (input: any, payload: payload, orderId : Types.ObjectId, image : any) => {
    try {
-
+    // loading images must be present
     if(image.length === 0 || !image) {
         throw new createHttpError.BadRequest("image is required");
     }
 
     const regexForMimeTypes = /image\/png|image\/jpeg|image\/jpg/;
 
+    // validating image type
     const validImageType = image.filter((x : any) => regexForMimeTypes.test(x.mimetype) === false )
-
-    console.log(validImageType);
 
     if(validImageType.length > 0) {
         throw new createHttpError.BadRequest(`${validImageType[0].fieldname} is not a valid image type`);
     }
 
+    // validating orderId type
     if(!Types.ObjectId.isValid(orderId)) {
         throw new createHttpError.BadRequest(`${orderId} is not a valid order id`)
     }

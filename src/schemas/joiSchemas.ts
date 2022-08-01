@@ -1,5 +1,10 @@
 import Joi from 'joi';
 
+/*
+* @author Suraj Dubey
+* @description Joi validation for new user registration
+*/
+
 export const registerUserSchema = Joi.object({
     title : Joi.string().required().trim().valid("Mr", "Mrs", "Miss"),
     name : Joi.string().required().trim().min(3),
@@ -10,6 +15,10 @@ export const registerUserSchema = Joi.object({
     reportingManager : Joi.string().hex().length(24)
 })
 
+/*
+* @author Suraj Dubey
+* @description Joi validation for user login
+*/
 export const loginUserSchema = Joi.object({
     email : Joi.string().email().trim().lowercase(),
     password : Joi.string().required(),
@@ -17,6 +26,10 @@ export const loginUserSchema = Joi.object({
     phone : Joi.string().pattern(new RegExp(/^[6-9]\d{9}$/)),
 })
 
+/*
+* @author Suraj Dubey
+* @description Joi validation for creating new BlankChecklist
+*/
 export const registerBlankChecklistSchema = Joi.object({
      clientId : Joi.string().required().hex().length(24),
      requirements : Joi.object({
@@ -37,6 +50,10 @@ export const registerBlankChecklistSchema = Joi.object({
      summary : Joi.string().default(null),
 })
 
+/*
+* @author Suraj Dubey
+* @description Joi validation for creating orders
+*/
 export const registerOrderSchema = Joi.object({
    
         clientId:  Joi.string().hex().required().length(24),
@@ -54,6 +71,10 @@ export const registerOrderSchema = Joi.object({
 
 });
 
+/*
+* @author Suraj Dubey
+* @description Joi validation for filling blank checklist
+*/
 export const filledChecklistSchema = Joi.object({
     requirements : Joi.object({
         cooler : Joi.boolean().default(false),
@@ -72,7 +93,10 @@ export const filledChecklistSchema = Joi.object({
     summary : Joi.string()
 })
 
-
+/*
+* @author Suraj Dubey
+* @description Joi validation for updating order status
+*/
 export const updateStatusSchema = Joi.object({
     status : Joi.string().required().valid("completed", "dispatched")
 })

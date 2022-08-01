@@ -4,6 +4,12 @@ import createHttpError from 'http-errors';
 import logger from '../logger/logger';
 import { Types } from 'mongoose';
 
+
+/*
+* @author Suraj Dubey
+* @description Service for creating new blank checklist
+*/
+
 type payload = {userId : Types.ObjectId, role : string}
 
 export const createBlankChecklist = async (input: any, payload: payload) => {
@@ -35,6 +41,10 @@ export const createBlankChecklist = async (input: any, payload: payload) => {
     }
 }
 
+/*
+* @author Suraj Dubey
+* @description Service for fetching all blank checklist
+*/
 export const getChecklist = async (input: Types.ObjectId) => {
 
     try {

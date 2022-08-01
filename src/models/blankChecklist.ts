@@ -1,6 +1,10 @@
 import { Schema, model, Types } from "mongoose";
 import {IBlankChecklist} from '../interfaces/models/checklist';
 
+/*
+* @author Suraj Dubey
+* @description BlankChecklist schema and model
+*/
 
 const ObjectId = Schema.Types.ObjectId;
 
@@ -24,6 +28,8 @@ const blankChecklistSchema : Schema = new Schema({
     summary : {type : String}
 }, {timestamps : true})
 
+
+// creating model
  const BlankChecklist = model<IBlankChecklist>("BlankChecklist", blankChecklistSchema)
 
  export default BlankChecklist;

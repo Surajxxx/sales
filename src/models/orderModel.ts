@@ -1,6 +1,11 @@
 import { Schema, model, Model, Document } from "mongoose";
 import IOrder from '../interfaces/models/order'
 
+/*
+* @author Suraj Dubey
+* @description Order schema and model
+*/
+
 const ObjectId = Schema.Types.ObjectId;
 
 const orderSchema : Schema = new Schema({
@@ -23,7 +28,7 @@ const orderSchema : Schema = new Schema({
 
 }, {timestamps : true})
 
-
+// creating model
  const Order = model<IOrder>("Order", orderSchema);
 
  export default Order;

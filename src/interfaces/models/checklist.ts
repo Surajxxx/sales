@@ -1,5 +1,10 @@
 import {Types} from 'mongoose'
 
+/*
+* @author Suraj Dubey
+* @description interface for creating Filled and Blank checklist
+*/
+
 type Driver = {
     licensePresent ?: boolean,
     phone ?: boolean,

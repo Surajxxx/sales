@@ -1,6 +1,9 @@
 import {Types} from 'mongoose'
 
-
+/*
+* @author Suraj Dubey
+* @description interface for creating Orders
+*/
 interface IOrder {
     clientId: Types.ObjectId;
     status : string;

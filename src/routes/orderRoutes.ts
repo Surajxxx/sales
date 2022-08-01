@@ -10,7 +10,7 @@ const router = express.Router();
 router.post('/create', createOrderSchema, AuthMiddleware.authentication, AuthMiddleware.allowedRoles(['admin','product manager']), OrderController.createOrderHandler )
 
 // link blankChecklist
-router.put('/link/checklist/:orderId/:checklistId', AuthMiddleware.authentication, AuthMiddleware.allowedRoles(['admin','product manager']), OrderController.linkBlankChecklistHandler)
+router.patch('/link/checklist/:orderId/:checklistId', AuthMiddleware.authentication, AuthMiddleware.allowedRoles(['admin','product manager']), OrderController.linkBlankChecklistHandler)
 
 // list of orders
 router.get('/get', AuthMiddleware.authentication, AuthMiddleware.allowedRoles(['admin','product manager', 'inspection manager']), OrderController.getOrdersHandler)
@@ -21,7 +21,8 @@ router.patch('/verify/:orderId', AuthMiddleware.authentication, AuthMiddleware.a
 // update order status
 router.patch('/update/:orderId', updateOrderStatusSchema, AuthMiddleware.authentication, AuthMiddleware.allowedRoles(['admin','product manager']), OrderController.updateStatusHandler)
 
-
+// get order status 
+router.get('/get/:clientId', AuthMiddleware.authentication, AuthMiddleware.allowedRoles(['client']), OrderController.getOrderStatusHandler)
 
 export default router;
 

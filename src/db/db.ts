@@ -2,6 +2,10 @@ import mongoose from "mongoose";
 import Locals from "../config/config";
 import logger from '../logger/logger'
 
+/*
+* @author Suraj Dubey
+* @description Database configuration
+*/
 class Database {
     // Initialize the database connection
     public static async init () : Promise<any> {
