@@ -12,6 +12,8 @@ import userRouter from './routes/userRoutes';
 import checklistRouter from '../src/routes/checklistRoutes';
 import orderRouter from '../src/routes/orderRoutes';
 import multer from 'multer';
+import swaggerUi from 'swagger-ui-express';
+let swaggerDocument = require('../swagger.json');
 
 // dotenv configuration
 dotenv.config()
@@ -47,6 +49,9 @@ app.use(session({
     })
 }));
 
+// swagger 
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+
 // Parsing middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -74,6 +79,8 @@ app.use((err : any, req : Request, res : Response, next : NextFunction) => {
         }
     })
 });
+
+
 
 // not found handler
 app.use((req, res, next) => {
