@@ -1,5 +1,5 @@
-import app from './app';
-import logger from '../src/logger/logger'
+import app from './src/app';
+import logger from './src/logger/logger'
 
 // server initialization
 app.listen(app.get('port'), () => {
